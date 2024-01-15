@@ -1,0 +1,43 @@
+
+>> To adjust the width of a particular column/row, place the cursor at the junction of that column/row and the next one. Then use double-click.
+
+>> To adjust the width of all columns/rows in a particular sheet, select the whole worksheet and place the cursor at the junction of first and second column/row. 
+Then use double-click.
+
+>> If you want to change the datatype for a particular column/row in a sheet, use the datatype option from the numbers ribbon. Also this ribbon allows you to use 
+the different formats for the same datatype. E.g. you can use different forms of date or currency based on the country. It also allows you to adjust the decimals 
+for numerical datatypes using increase decimal or decrease decimal options. It also provides an option to convert values into percentages.
+
+>> Conditional formatting under the styles ribbon can be used to highlight certain cells in a column/row based on rules such as greater than, lesser than, equal to,
+ presence of certain test/characters, presence of duplicates, top 10, top 10% , bottom 10, bottom 10%, above average, below average.
+
+>> Conditional formatting can also be used for visualization purposes through the use of data bars, color scales and icon sets options.
+
+>> The cells ribbon can be used to add/delete the rows/columns and also to format the cells.
+
+>> Autosum option under the editing ribbon allows you to sum the values of an particular column/row. To use Autosum, select all the cells that you want to sum-up
+plus one extra cell below where you want the summed-up value to appear and then click on Autosum.
+
+>> Also we can get the most often used values of measuremnt(Avg, sum, count) by just selecting the required cells/columns/rows.
+
+>> Fill option is present under editing ribbon and can be used to autofill values based on certain series.
+
+>> Named-ranges is an option that makes usage of formulas on a selection of cells from a particular column/row more efficient. To create named-range, select the cells from
+column/row you want to operate and then rename the range to some relevant name by going to name box located to the left of formula bar and pressing enter. Then while using 
+formulas, instead of entering the cell location/number, use the named-range in the formula for the first cell where value needs to calculated and it would apply the same 
+formula over whole of the range. 
+
+>> Proper selection of range is necessary for named-ranges to function properly without any errors. In case of large datasets, use of keyboard shorcuts to navigate the cells 
+in the spreadsheet thus becomes necessary. E.g. "use of ctrl + arrow keys" for navigation and "ctrl + shift + arrow keys" for selection. Post the selection the formula can be 
+applied using "ctrl + d".
+
+>> Named-ranges can be edited/created/deleted using the Name Manager option present under "Defined Names" ribbon in the formulas tab. This "Defined Names" ribbon also allows
+you to create multiples named-range in a singel-go using 'Create from selection' option. You need to provide the proper selection of cells to the option and it would create 
+relevant named-ranges for you.
+
+>> Creation of table from the dataset opens doors for many formatting and other useful features for generating insights for analytics. To create a table from an existing dataset 
+in the sheet, we can use "Format as Table" option from styles ribbon under home tab. Also we can table option from insert tab for the same. Keyboard shortcut for the same 
+is 'ctrl + t'.
+
+>> Slicer is one of the most important options that would be accessible when a dataset is converted to a table. Slicer let you to filter the dataset based on values from a certain 
+column and also looks visually appealing which creates a quite a good impression while someone's giving the presentation based on excel data.
