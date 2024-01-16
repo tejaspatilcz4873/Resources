@@ -29,11 +29,15 @@ formula over whole of the range.
 
 >> Proper selection of range is necessary for named-ranges to function properly without any errors. In case of large datasets, use of keyboard shorcuts to navigate the cells 
 in the spreadsheet thus becomes necessary. E.g. "use of ctrl + arrow keys" for navigation and "ctrl + shift + arrow keys" for selection. Post the selection the formula can be 
-applied using "ctrl + d".
+applied on whole range using "ctrl + d".
 
 >> Named-ranges can be edited/created/deleted using the Name Manager option present under "Defined Names" ribbon in the formulas tab. This "Defined Names" ribbon also allows
 you to create multiples named-range in a singel-go using 'Create from selection' option. You need to provide the proper selection of cells to the option and it would create 
 relevant named-ranges for you.
+
+>> If your dataset contains huge number of rows and you want to create a new calculated column using the formula and extend the formula for all the rows for that particular 
+column, then use the column present just before the calculated column to navigate to the last row of the dataset and create the required selection using 'ctrl + shift + up key' 
+and then press 'ctrl + d' for extending formula to all rows.
 
 >> Creation of table from the dataset opens doors for many formatting and other useful features for generating insights for analytics. To create a table from an existing dataset 
 in the sheet, we can use "Format as Table" option from styles ribbon under home tab. Also we can table option from insert tab for the same. Keyboard shortcut for the same 
@@ -41,3 +45,29 @@ is 'ctrl + t'.
 
 >> Slicer is one of the most important options that would be accessible when a dataset is converted to a table. Slicer let you to filter the dataset based on values from a certain 
 column and also looks visually appealing which creates a quite a good impression while someone's giving the presentation based on excel data.
+
+>> Mutiple slicers can be added for more detailed filter on data.
+
+
+*************************************************************************************************
+Different excel shortcuts for navigation 
+
+1. Go to last row of the datset : ctrl + down arrow key
+2. Go to last column of the datset : ctrl + right arrow key
+
+3. Go to first row of the datset : ctrl + up arrow key
+4. Go to first column of the datset : ctrl + left arrow key
+
+5. Go to first cell of the datset : ctrl + home
+1. Go to last column of the datset : ctrl + end
+
+Use of shift key along with navigation shortcuts can be used for selection of navigated cells.
+*************************************************************************************************
+
+>> You can also use the logical operators in conjunction with sum, avg and other mathematical function to generate complex/nested functions to get required insights in the excel.
+
+>> "Text to columns" functionality present under data tools ribbon allows you to split a column based on delimiters/fixed width as part of data cleaning. Note that before we use this 
+functionality we need to add an extra column after the column that needs to be split because it would otherwise overwrite the data in next column with the split data.
+
+
+
