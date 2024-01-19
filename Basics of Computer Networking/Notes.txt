@@ -32,7 +32,7 @@
 
 >> Port numbers 1024 to 49152 are called as registered ports and they are used by specific applications but are not system reserved. 
 
->> The remaining ports in the range of 4915 to 65535 are called future ports are not frequently used. 
+>> The remaining ports in the range of 4915 to 65535 are called future ports and are not frequently used. 
  
 
 
