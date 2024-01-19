@@ -1,0 +1,60 @@
+
+>> Computers or similar computing devices connected with each other through the use of cables/wireless technologies form a computer network.
+
+>> Computer networks help in communication and sharing of the resources.
+
+>> Internet is the interconnected collection of computer networks following certain protocols. That's a kind of a supernetwork.
+
+>> Protocol refers to certain set of rules that govern the exchange and transmission of information over the network.
+
+>> World Wide Web(WWW) refers to a system of interconnected resources available over the Internet. Worldwide Web is built on top of Internet and it is a way to allow the sharing of information.
+
+>> IP address is a uniquely assigned identifier or address for every device or computer that's connected over a computer network and it helps for identifying the presence of any device over the network and accordingly correctly share the required data.
+
+>> There are two types of IP addresses. They are ipv4 and ipv6.
+
+>> Ipv 4 address is a 32 bit address comprising of numbers. 
+   E.g. 193.1.255.5 where nos. between the dots form a binary.
+		
+>> Any device connected over a network might have multiple processes running on it. So in order to distinguish between the processes, we need a port number. Each process is assigned a port number, and hence distinguishes the data based on the process. 
+
+>> All these processes running on a computer are bound by the same IP address, but a different port number. 
+
+>> The combination of IP address and port number is known as the socket number.
+
+>> IP addresses identify the end systems or devices, whereas the port numbers identify the applications or processes on the end systems or devices. 
+
+>> Every application or process on a computer has a unique 16 bit binary port number. It ranges from 0 to 65535.
+
+>> Port numbers ranging from zero to 1023 are called as well-known ports, and reserved for specific applications and protocols. 
+
+>> Port number 18 is reserved for http and port number 443 is reserved for https. So all the traffic coming from these two routes would be coming through the port numbers 80 and 443. 
+
+>> Port numbers 1024 to 49152 are called as registered ports and they are used by specific applications but are not system reserved. 
+
+>> The remaining ports in the range of 4915 to 65535 are called future ports are not frequently used. 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
