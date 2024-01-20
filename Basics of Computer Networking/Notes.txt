@@ -13,7 +13,7 @@
 
 >> There are two types of IP addresses. They are ipv4 and ipv6.
 
->> Ipv 4 address is a 32 bit address comprising of numbers. 
+>> Ipv4 address is a 32 bit address comprising of numbers. 
    E.g. 193.1.255.5 where nos. between the dots form a binary.
 		
 >> Any device connected over a network might have multiple processes running on it. So in order to distinguish between the processes, we need a port number. Each process is assigned a port number, and hence distinguishes the data based on the process. 
