@@ -34,11 +34,77 @@
 
 >> The remaining ports in the range of 4915 to 65535 are called future ports and are not frequently used. 
  
+>> DNS stands for domain name system. Domain names are unique names or identifiers that identifies a particular website and are mapped to an IP address. 
 
+>> IP addresses are difficult for humans to interpret. Hence, DNS is the layer that helps to map domains to IP addresses.  
 
+>> DNS lookup is the process in which domain to IP resolution is done. 
 
+>> In microsoft windows based systems, any of the following commands can be used on command line for getting IP address from domain name :
+	1. ping google.com (this command works on Linux as well)
+	2. nslookup google.com
+	
+>> In microsoft windows based systems, following command can be used on command line for getting IP address of you system :
+	1.type ipconfig and then press enter.
+	
+>> In Linux based systems, any of the following commands can be used on command line for getting IP address from domain name :
+	1. ping google.com
+	2. dig google.com
+	3. dig google.com +short
+	
+>> Modern day DNS has a hierarchy and hence, the url of any website is divided into three independent parts namely top level domain, second level domain and sub-domain.
+	E.g. cs.harvard.edu consists of 'cs' as sub-domain, 'harvard' as second level domain and 'edu' as top level domain.
+	
+	
+>> Root DNS servers that exist at the top of the hierarchy point to multiple top level domain servers like '.com', '.gov', '.edu', '.in', etc. 
 
+>> When you as a client make a request to a root server, it returns you in response, the address of top level domain server. 
 
+>> Post getting the address of top level domain server, you make a request to this top level domain server. In response, the top level domains server then gives you address of the second level domain server.
+
+>> You then make a request to this second level domain server to get the sub-domain server address.
+
+>> Every organization has to maintain its DNS records. And for the same a self-owned or a 3rd party server is used. And that's called authoritative DNS server. 
+
+>> There are mainly two networking models. These are TCP/IP and OSI model. 
+
+>> TCP/IP stands for Transmission Control Protocol/Internet Protocol. 
+
+>> TCP/IP model consists of five layers. These are application layer, transport layer, network layer, data link layer and physical layer. 
+
+>> Application layer is implemented on end softwares. Also, the end users interact with this particular network layer.  
+
+>> Application layer is the one that starts an outgoing message journey in the network stack. 
+
+>> The protocols like HTTP, FTP, SMTP exist in application layer. 
+
+>> Transport layer is responsible for reliable data transfer. It also ensures that data packets are transferred in correct order. 
+
+>> TCP and UDP protocols exist in transport layer. When data comes to transport layer, we call it as datagram if the protocol used is UDP and we call it as segment, if the protocol used is TCP.
+
+>> TCP provides a reliable connection and its slower than UDP, due to use of acknowledgement mechanism. UDP can be unreliable, but faster. 
+
+>> Use cases for TCP are chatting, email communication. Whereas for UDP, the use-cases are live streams, live podcasts and online gaming. 
+
+>> The datagrams or segments received from transport layer into network layer are called as data packets. 
+
+>> The network layer is responsible for transportation of data packets from one end system to another. They are also responsible for handling the routing of data packets through Internet Protocol present in the layer. 
+
+>> Network layer is also responsible for multiplexing and demultiplexing of the data packets. 
+
+>> Datalink layer handles flow control and error detection and correction if required. 
+
+>> Datalink layer gets the data packets from network layer and transfers them to physical layer.
+
+>> Physical layer consists of cables or wires or wireless transmission mediums that are used for physical communication and sending the data in the form of electric signals over long distances.
+
+>> When the data in the form of electric signals reaches the end system (present at the other end), then reverse process occurs. That is, the data enters from physical layer into the data link layer. From there, it goes to network layer, then transport layer. and then application layer. 
+
+>> In OSI model, the functions of application layer are subdivided by introduction of 2 more layers called presentation layer and session layer. 
+
+>> The presentation layer is responsible for encoding and decoding of the data, whereas the session layer is responsible for maintaining the user sessions. 
+
+>> 
 
 
 
