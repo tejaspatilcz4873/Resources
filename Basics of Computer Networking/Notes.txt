@@ -1,3 +1,4 @@
+--------------------------------------------------------Networking Basics--------------------------------------------------------
 
 >> Computers or similar computing devices connected with each other through the use of cables/wireless technologies form a computer network.
 
@@ -13,7 +14,7 @@
 
 >> There are two types of IP addresses. They are ipv4 and ipv6.
 
->> Ipv4 address is a 32 bit address comprising of numbers. 
+>> Ipv 4 address is a 32 bit address comprising of numbers. 
    E.g. 193.1.255.5 where nos. between the dots form a binary.
 		
 >> Any device connected over a network might have multiple processes running on it. So in order to distinguish between the processes, we need a port number. Each process is assigned a port number, and hence distinguishes the data based on the process. 
@@ -33,6 +34,10 @@
 >> Port numbers 1024 to 49152 are called as registered ports and they are used by specific applications but are not system reserved. 
 
 >> The remaining ports in the range of 4915 to 65535 are called future ports and are not frequently used. 
+
+
+
+--------------------------------------------------------Domain Name System(DNS)--------------------------------------------------------
  
 >> DNS stands for domain name system. Domain names are unique names or identifiers that identifies a particular website and are mapped to an IP address. 
 
@@ -104,9 +109,82 @@
 
 >> The presentation layer is responsible for encoding and decoding of the data, whereas the session layer is responsible for maintaining the user sessions. 
 
->> 
 
 
+--------------------------------------------------------Web Sockets--------------------------------------------------------
+
+>> Web Sockets facilitate real-time communication and are used highly in chatting applications like whatsapp, livefeed applications.
+
+>> Web Sockets are helpful to build applications that respond immediately to user actions, chat apps, live feed,etc.
+
+>> Web Sockets are based on TCP protocol.
+
+>> Three modes of data transmission are simplex, half-duplex and full-duplex(bi-directional).
+
+>> Web Sockets are full-duplex where traditional http is a simplex system.
+
+
+
+--------------------------------------------------------Internet Protocol : ipv4--------------------------------------------------------
+
+>> Design was based on following assumptions :
+	1. It should provide a unreliable connection service. 
+	2. Must have fixed 32 bit binary address consisting of four octets.
+	3. IP host should be able to exchange variable length data packets. 
+
+>> Address assignment is based on sub-nets. Routers maintain the routes towards 'blocks of addresses' called sub-nets and not individual hosts.
+
+>> Subnetting is a method of dividing a single physical network into logical sub-networks (subnets). Subnetting allows a business to expand its network without requiring a new network number from its Internet service provider. Subnetting helps to reduce the network traffic and also conceals network complexity. Subnetting is necessary when a single network number must be assigned to several portions of a local area network (LAN).
+
+>> This sub-nets are assigned to ISPs(Internet Service Providers). The ISPs then assign the IP addresses within subnet in hierarchal manner.
+
+>> A sub-net may consist of multiple LANs.
+
+>> The 32 bit IP address has two parts. Those are sub-network ID and host ID. The higher order bits of 32 bit binary IP address refer to subnet ID and lower order bits referred to the host ID. 
+
+>> When a router needs to send a data packet, it must know the subnet of the destination address and then routing table needs be consulted to forward the packets in the appropriate subnet to destination address. 
+
+>> The IP addresses are defined and divided into 5 different classes named A, B, C, D, and E. 
+
+>> Characteristics of class A :
+	1. First bit of IP address is always '0' and hence, 2 raised to power 32 unique addresses are possible.
+	2. In Class A, First 8 bit octet represents the network ID and the rest of the 3 octets represent the host ID. 
+	3. At max there can be 2^7 different sub-network ids present in class A(first bit being '0' for subnet ID). 
+	4. At Max, there can be (2^24 - 2) different hosts in Class A. This is due to the fact that in every network, the first and the last IP addresses are not assigned to any host. The first IP address is called the network address and the last IP address is called the broadcast address.
+	5. Hence, X.0.0.0 and X.255.255.255 are reserved for network address and broadcast address in class A. 'X' here represents subnet ID and lies in the range (0-127) for class A.
+	6. If we want to broadcast a request to all the hosts present in a particular subnet, then we use the broadcast address. We send a request to this broadcast address and the request gets broadcast to all hosts in the subnet. 
+	7. Default mask for class A is 255.0.0.0
+	
+
+>> Characteristics of class B :
+	1. The first two bits of 32 binary IP address are fixed to 10. 
+	2. Since first two bits of 32 bit binary address are fixed, there can be at max, 2^30 different IP addresses in class B.
+	3. In Class B, the first two octets represent the network id and the last two octets represent the host ID. 
+	4. Due to above fact, there are 2^14 different network ids in class B.
+	5. At max, there can be (2^16 - 2) different hosts in class B.
+	6. Network address is X.Y.0.0 and broadcast address is X.Y.255.255. Here, 'X' would lie in range (128-191) and 'Y' lies in range (0-255).
+	7. Default mask is 255.255.0.0
+
+>> Characteristics of class C :
+	1. The first three bits of 32 binary IP address are fixed to 110. 
+	2. Since first three bits of 32 bit binary address are fixed, there can be at max, 2^29 different IP addresses in class C.
+	3. In Class C, the first three octets represent the network id and the last one octet represent the host ID. 
+	4. Due to above fact, there are 2^21 different network ids in class C.
+	5. At max, there can be (2^8 - 2) different hosts in class C.
+	6. Network address is X.Y.Z.0 and broadcast address is X.Y.Z.255. Here, 'X' would lie in range (192-223) and both 'Y','Z' lie in range (0-255).
+	7. Default mask is 255.255.255.0
+	
+>> Characteristics of class D :
+	1. The first four bits of 32 binary IP address are fixed to 1110 and hence the value of first octet would lie in range (224-239).
+	2. Since first four bits of 32 bit binary address are fixed, there can be at max, 2^28 different IP addresses in class D.
+	3. In Class D, there are not preserved network ids and host IDs since it is used for special purposes like multicasting. 
+	4. No subnet mask for class D.
+	
+>> Characteristics of class E :
+	1. The first four bits of 32 binary IP address are fixed to 1111 and hence the value of first octet would lie in range (240-255).
+	2. Since first four bits of 32 bit binary address are fixed, there can be at max, 2^28 different IP addresses in class E.
+	3. In Class D, there are not preserved network ids and host IDs since it is used for military purposes. 
+	4. No subnet mask for class E.
 
 
 
