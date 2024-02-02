@@ -1,0 +1,22 @@
+
+>> SQL stands for Structure Query Language.
+
+>> It was developed by IBM in 1970s for managing, manipulating and extracting data from relational databases.
+
+>> Relational Databases(RDBMS) are table-based(row and columns) databases and relationships can be formed between different tables using the primary and foreign keys.
+
+>> Relational Databases are ACID-compliant.
+
+>> ACID above stands for Automicity, Consistency, Isolation and Durablity.
+
+>> Atomicity : There is nothing like partial transaction i.e. all or nothing. Either entire transaction is executed or no part of it is executed.
+
+>> Consistency : Data is equally valid and no anamoly before/after transactions.
+
+>> Isolation : Multiple transactions don't affect each other while running concurrently.
+
+>> Duability : Committed data is never lost unless someone deletes SQL DML commands.
+
+>> Examples of RDBMS : Oracle, PostgreSQL, MySQL, Microsoft SQL Server, SQLite
+
+>> 
