@@ -1,0 +1,10 @@
+>> While coding in Jupyter Notebook, to get help with syntax and arguments for the function you are writing, press 'Shift + Tab' after the function name.
+
+>> While coding in VS Code, while typing the function name you would start getting function suggestion. Hovering over the arrow next to suggestions would provide you with the help for syntax, arguments and other details.
+
+>> While coding in Jupyter Notebook, to get all the functions that can be applied on a particular datatype, press 'Tab' after the '.'.
+E.g. -> str1.
+You would get a dropdown of all the functions that can be applied to string named str when you press tab after the '.'
+
+>> If you are coding in VS Code and have proper extensions installed, as soon as you press '.' you would get the dropdwon containing all
+the functions that can be applied.
