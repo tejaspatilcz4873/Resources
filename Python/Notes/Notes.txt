@@ -8,3 +8,24 @@ You would get a dropdown of all the functions that can be applied to string name
 
 >> If you are coding in VS Code and have proper extensions installed, as soon as you press '.' you would get the dropdwon containing all
 the functions that can be applied.
+
+>> Data analysis is the process of examining, cleaning, transforming and interpreting the data.
+
+>> Data analysis is used to extract meaningful insights, patterns and trends.
+
+
+
+*******************Connecting the google colab with google drive for data analysis*******************
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+#provide necessary permissions when pop-up appears
+
+import pandas
+
+df = pandas.read_csv('/content/drive/titanic.csv')
+
+
+
+
